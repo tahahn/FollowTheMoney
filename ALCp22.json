@@ -1,0 +1,5832 @@
+{
+  "metainfo": {
+    "format": "json",
+    "completeness": {
+      "allReports": 1860,
+      "availableReports": 2034,
+      "completeReports": 1953,
+      "incompleteAvailable": 55,
+      "lastUpdated": "2016-02-22T10:17:27 +05:00",
+      "mostRecentReportDate": "2016-06-05T09:49:37 +04:00"
+    },
+    "paging": {
+      "pagelink": "p=o",
+      "minPage": 0,
+      "currentPage": 0,
+      "maxPage": 19,
+      "totalPages": 20,
+      "totalrecords": 1885,
+      "recordsPerPage": 100,
+      "recordsThisPage": 100
+    },
+    "grouping": {
+      "grouplink": "gro=c-t-id",
+      "currentGrouping": {
+        "ctid": "Candidate (General)"
+      }
+    },
+    "availableGrouping": {
+      "fs": "Filing Jurisdiction (General)",
+      "feid": "Filer (General)",
+      "fy": "Filing Year (Advanced)",
+      "cti": "Incumbency Data (Advanced)",
+      "cticod": "Incumbency Advantage (Advanced)",
+      "dnme": "Original Name (Advanced)",
+      "damt": "Amount (Advanced)",
+      "ddte": "Date (Advanced)",
+      "dludte": "Last Updated (Advanced)",
+      "dtype": "Type of Transaction (Advanced)",
+      "dfile": "DND (Advanced)",
+      "dllink": "Lobbying Entity (Advanced)",
+      "dadstr": "Street (Advanced)",
+      "ctsts": "Status of Candidate (Candidates)",
+      "did": "Record (Contributors)",
+      "deid": "Contributor (Contributors)",
+      "det": "Type of Contributor (Contributors)",
+      "dccg": "Braod Sector (Contributors)",
+      "dcci": "General Industry (Contributors)",
+      "dccb": "Specific Buisiness (Contributors)",
+      "dadcty": " City (Contributors)",
+      "dadst": " State (Contributors)",
+      "dadzip": " Zip (Contributors)",
+      "dins": "In-Jurisdiction (Contributors)",
+      "dempl": "Employer (Contributors)",
+      "doccupation": "Occupation (Contributors)"
+    },
+    "sorting": {
+      "sortlink": "so=u-tot&sod=0",
+      "currentSorting": {
+        "utot": "Total_$"
+      },
+      "sortingdirection": "descending",
+      "availablesorting": {
+        "ctid": "Candidate",
+        "ctpt": "Specific_Party",
+        "ctp": "General_Party",
+        "s": "Election_Jurisdiction",
+        "y": "Election_Year",
+        "crt": "Election_Type",
+        "crosid": "Office_Sought",
+        "ctftsts": "Election_Status",
+        "ctico": "Incumbency Status",
+        "urec": "#_of_records"
+      }
+    },
+    "recordFormat": {
+      "request": "s=AL&f-core=1&c-exi=1",
+      "Candidate": {
+        "token": "ctedi",
+        "id": "token-value",
+        "Candidate": "Display-Value"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "token-value",
+        "Candidate_Entity": "Display-Value"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": "token-value",
+        "Specific_Party": "Display-Value"
+      },
+      "Election_Jurisdiction": {
+        "token": "s",
+        "id": "token-value",
+        "Election_Jurisdiction": "display-value"
+      },
+      "Election_Year": {
+        "token": "y",
+        "id": "token value",
+        "Election_Year": "display-value"
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": "token value",
+        "Election_Type": "display-value"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": "token value",
+        "Office_Sought": "display-value"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "id": "token value",
+        "Election_Stauts": "display-value"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "id": "token value",
+        "Incumbency_Status": "display value"
+      },
+      "numberOfRecords": {
+        "numberOfRecords": "display value"
+      },
+      "Total_$": {
+        "Total_$": "display value"
+      }
+    }
+  },
+  "records": [
+    {
+      "record_id": 1,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a03d4f40d938b49cb",
+        "Candidate": "Juarez, Vicky"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a660db7dcbc0df3b9"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 126,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2005,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9690,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4487
+      },
+      "Total_$": {
+        "Total_$": 680103
+      }
+    },
+    {
+      "record_id": 2,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ac98d393acbf4019c",
+        "Candidate": "Conway, Juliette"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a2a3c54018f0a3393"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 111,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2005,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9499,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4631
+      },
+      "Total_$": {
+        "Total_$": 90572
+      }
+    },
+    {
+      "record_id": 3,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a0f3f7069788537e7",
+        "Candidate": "Paul, Clemons"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a2ee4de2f42c787d6"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 134,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2006
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9213,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4130
+      },
+      "Total_$": {
+        "Total_$": 643341
+      }
+    },
+    {
+      "record_id": 4,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a04169d8322e7c2b7",
+        "Candidate": "Duran, Salinas"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ad72a9d288962d8be"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 114,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2007,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9024,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4670
+      },
+      "Total_$": {
+        "Total_$": 715495
+      }
+    },
+    {
+      "record_id": 5,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a40801cda21c0cfc4",
+        "Candidate": "Taylor, Sondra"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a8b5d8c0fc99ea577"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 149,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2006,
+        "Election_Year": 2012
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9609,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4503
+      },
+      "Total_$": {
+        "Total_$": 148568
+      }
+    },
+    {
+      "record_id": 6,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9acbdcd2411d6b770d",
+        "Candidate": "Mcdowell, Singleton"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9abf0bfbee66a836dc"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 116,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9071,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4931
+      },
+      "Total_$": {
+        "Total_$": 1424498
+      }
+    },
+    {
+      "record_id": 7,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a41f65dedf9247ee8",
+        "Candidate": "Gentry, Weiss"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a0092cd012ea0875e"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 117,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2005
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9128,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4904
+      },
+      "Total_$": {
+        "Total_$": 656529
+      }
+    },
+    {
+      "record_id": 8,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a360ae061796b1760",
+        "Candidate": "Patrick, Ayers"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ac6d232c5fdb50e72"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 134,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2003,
+        "Election_Year": 2006
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9803,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4714
+      },
+      "Total_$": {
+        "Total_$": 811840
+      }
+    },
+    {
+      "record_id": 9,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aec4a9e35a1f29bc9",
+        "Candidate": "Buck, Stacie"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9acea15f5d0796c2ea"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 125,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2015,
+        "Election_Year": 2011
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9113,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4744
+      },
+      "Total_$": {
+        "Total_$": 1305530
+      }
+    },
+    {
+      "record_id": 10,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a2809b9b9ae224f15",
+        "Candidate": "Dickerson, Holman"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a6da980b00d19e3f5"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 100,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2007
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9557,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4110
+      },
+      "Total_$": {
+        "Total_$": 483083
+      }
+    },
+    {
+      "record_id": 11,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a5f0c90cc87b65f71",
+        "Candidate": "Moss, Hicks"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9af384335f82a7a7ec"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 116,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2009,
+        "Election_Year": 2015
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9823,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4207
+      },
+      "Total_$": {
+        "Total_$": 89381
+      }
+    },
+    {
+      "record_id": 12,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a513154699976c820",
+        "Candidate": "Ewing, Melinda"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a98a58f3df0576099"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 145,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2015,
+        "Election_Year": 2013
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9541,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4194
+      },
+      "Total_$": {
+        "Total_$": 236364
+      }
+    },
+    {
+      "record_id": 13,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a0d64e87376182dd8",
+        "Candidate": "Valencia, Toni"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a93c0d406987f6958"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 118,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2010
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9088,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4588
+      },
+      "Total_$": {
+        "Total_$": 1432103
+      }
+    },
+    {
+      "record_id": 14,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a15e623fd4db89b30",
+        "Candidate": "Hays, Isabella"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a11ef91c89775589b"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 143,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2000
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9180,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4129
+      },
+      "Total_$": {
+        "Total_$": 151581
+      }
+    },
+    {
+      "record_id": 15,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a8ca9dd7ea2e8c773",
+        "Candidate": "Singleton, Sandra"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a0bc5c1b93d3bce87"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 141,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2000,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9638,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4107
+      },
+      "Total_$": {
+        "Total_$": 1275375
+      }
+    },
+    {
+      "record_id": 16,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9abbfd587e13c50242",
+        "Candidate": "Randall, Mitzi"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a49ac8f8ffeeedd45"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 145,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2001,
+        "Election_Year": 2000
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9969,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4783
+      },
+      "Total_$": {
+        "Total_$": 1233166
+      }
+    },
+    {
+      "record_id": 17,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a3b5adf418358e159",
+        "Candidate": "Heath, Carter"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ab93efc41240d2485"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 127,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2009,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9444,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4340
+      },
+      "Total_$": {
+        "Total_$": 1389290
+      }
+    },
+    {
+      "record_id": 18,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a67733f482091dd1e",
+        "Candidate": "Page, Bass"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9abea301f6fc0d102f"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 105,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2008,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9543,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4992
+      },
+      "Total_$": {
+        "Total_$": 1191321
+      }
+    },
+    {
+      "record_id": 19,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9acc51442ace8fb47e",
+        "Candidate": "Park, Dickson"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a4eeff720942d475e"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 113,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9294,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4671
+      },
+      "Total_$": {
+        "Total_$": 886338
+      }
+    },
+    {
+      "record_id": 20,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a42f65dd8b7edaf62",
+        "Candidate": "Hayes, Gina"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a19c0628f8023ac66"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 106,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9365,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4450
+      },
+      "Total_$": {
+        "Total_$": 502421
+      }
+    },
+    {
+      "record_id": 21,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9abde47b06e3a9a380",
+        "Candidate": "Burt, Kathrine"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a3d87cc77b4bd5f38"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 129,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 2004
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9955,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4289
+      },
+      "Total_$": {
+        "Total_$": 641538
+      }
+    },
+    {
+      "record_id": 22,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a64e95fe62b448c2e",
+        "Candidate": "Holder, Patrice"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a54ea8a605e0dc2e6"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 118,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 1998
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9644,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4553
+      },
+      "Total_$": {
+        "Total_$": 749220
+      }
+    },
+    {
+      "record_id": 23,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a90cc423a9c6be820",
+        "Candidate": "English, Briggs"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a50558977d070bf71"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 119,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9622,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4050
+      },
+      "Total_$": {
+        "Total_$": 885203
+      }
+    },
+    {
+      "record_id": 24,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9adb05728a4cca0cd2",
+        "Candidate": "Eaton, Taylor"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a66110396d9389ea0"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 111,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2005,
+        "Election_Year": 2006
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9378,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4010
+      },
+      "Total_$": {
+        "Total_$": 588532
+      }
+    },
+    {
+      "record_id": 25,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ac49a69fcb2887c64",
+        "Candidate": "Roberson, Alana"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a72424fca171c9e9d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 103,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2006,
+        "Election_Year": 2012
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9394,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4997
+      },
+      "Total_$": {
+        "Total_$": 674065
+      }
+    },
+    {
+      "record_id": 26,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ac85dfd467a2e9219",
+        "Candidate": "Elliott, Mercer"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a778dbd472b73910f"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 143,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2005
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9897,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4501
+      },
+      "Total_$": {
+        "Total_$": 1037850
+      }
+    },
+    {
+      "record_id": 27,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a3e15524a2a2dc001",
+        "Candidate": "Goff, Courtney"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a6f67129afa5d289e"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 126,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2000,
+        "Election_Year": 2014
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9705,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4023
+      },
+      "Total_$": {
+        "Total_$": 917824
+      }
+    },
+    {
+      "record_id": 28,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a12f96146d0431908",
+        "Candidate": "Moreno, Roman"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a173dc1203ed65be7"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 111,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2003,
+        "Election_Year": 1998
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9528,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4092
+      },
+      "Total_$": {
+        "Total_$": 158789
+      }
+    },
+    {
+      "record_id": 29,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aa507ffef33e03ab6",
+        "Candidate": "Cummings, Eva"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a6a0534b80f38e2fe"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 128,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9912,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4653
+      },
+      "Total_$": {
+        "Total_$": 581058
+      }
+    },
+    {
+      "record_id": 30,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a6372ece27bafbd4e",
+        "Candidate": "Flores, Keller"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a4663521429391291"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 145,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9783,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4419
+      },
+      "Total_$": {
+        "Total_$": 1238144
+      }
+    },
+    {
+      "record_id": 31,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a08b7b7877c5d70db",
+        "Candidate": "Gordon, Hilary"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a5be11071fca77e5c"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 147,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9504,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4943
+      },
+      "Total_$": {
+        "Total_$": 452623
+      }
+    },
+    {
+      "record_id": 32,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aba8bffd594f7da65",
+        "Candidate": "Schroeder, Martin"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9adf2dbc9fd58f2768"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 113,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2010,
+        "Election_Year": 2003
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9497,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4176
+      },
+      "Total_$": {
+        "Total_$": 1102597
+      }
+    },
+    {
+      "record_id": 33,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a29feab34815f6e9c",
+        "Candidate": "Spears, Mcgee"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a5c866347ed3aac05"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 137,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2011,
+        "Election_Year": 2015
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9902,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4274
+      },
+      "Total_$": {
+        "Total_$": 727275
+      }
+    },
+    {
+      "record_id": 34,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad1545c1b3fa8f9bf",
+        "Candidate": "Wilson, Fitzgerald"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a70e5d6f6952cda26"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 109,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2003
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9176,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4308
+      },
+      "Total_$": {
+        "Total_$": 1033351
+      }
+    },
+    {
+      "record_id": 35,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a2fcc024e7550a946",
+        "Candidate": "Velasquez, Cherry"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a3b8338bdfaeaaf79"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 131,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 1998
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9805,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4927
+      },
+      "Total_$": {
+        "Total_$": 500003
+      }
+    },
+    {
+      "record_id": 36,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ab7c6cefd21d1d594",
+        "Candidate": "Rice, Graves"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a19326062abf9853f"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 140,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9588,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4221
+      },
+      "Total_$": {
+        "Total_$": 1040499
+      }
+    },
+    {
+      "record_id": 37,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a467ead27fcbf8438",
+        "Candidate": "Farley, Marlene"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a72ce2609bd6a7235"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 148,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1999,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9196,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4024
+      },
+      "Total_$": {
+        "Total_$": 219259
+      }
+    },
+    {
+      "record_id": 38,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a775fce77c42e5199",
+        "Candidate": "Bender, Loraine"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ad55fe54679bae9bf"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 141,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2000,
+        "Election_Year": 2013
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9733,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4555
+      },
+      "Total_$": {
+        "Total_$": 224342
+      }
+    },
+    {
+      "record_id": 39,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9afe2a13abd4a99817",
+        "Candidate": "Conner, Della"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a7a272def407b0aec"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 128,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2001
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9940,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4309
+      },
+      "Total_$": {
+        "Total_$": 1119563
+      }
+    },
+    {
+      "record_id": 40,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aab092f584a25a2c2",
+        "Candidate": "Curry, Suzanne"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a93015a5954ac3dc9"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 102,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9438,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4372
+      },
+      "Total_$": {
+        "Total_$": 1493285
+      }
+    },
+    {
+      "record_id": 41,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a5758b6a2ff64f976",
+        "Candidate": "Watson, Nichole"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a13625535f1438791"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 116,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2000,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9080,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4010
+      },
+      "Total_$": {
+        "Total_$": 1100207
+      }
+    },
+    {
+      "record_id": 42,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a47a1b67b2f0576f7",
+        "Candidate": "Kramer, Mavis"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a0c7daaa1a58dda41"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 114,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2010
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9136,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4524
+      },
+      "Total_$": {
+        "Total_$": 1055240
+      }
+    },
+    {
+      "record_id": 43,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a39cf952ee46dd79d",
+        "Candidate": "Raymond, Gilbert"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9aa51e406585a133d0"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 135,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9747,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4316
+      },
+      "Total_$": {
+        "Total_$": 123005
+      }
+    },
+    {
+      "record_id": 44,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aed12addcd35747ed",
+        "Candidate": "Parks, Nunez"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ae13bd3f6f16ed91b"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 108,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2005
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9395,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4643
+      },
+      "Total_$": {
+        "Total_$": 279414
+      }
+    },
+    {
+      "record_id": 45,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a0d23226070cca380",
+        "Candidate": "Knapp, Delia"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9aba3154b144997603"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 150,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2013,
+        "Election_Year": 2013
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9908,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4425
+      },
+      "Total_$": {
+        "Total_$": 1113225
+      }
+    },
+    {
+      "record_id": 46,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a748b8935cf36049d",
+        "Candidate": "Witt, Gibson"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a55ac79b174f7ec83"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 127,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1998,
+        "Election_Year": 2000
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9995,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4195
+      },
+      "Total_$": {
+        "Total_$": 474842
+      }
+    },
+    {
+      "record_id": 47,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad9933499e01539f5",
+        "Candidate": "Mcmahon, Leonard"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a30e4b60e00197cdb"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 121,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2008,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9148,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4910
+      },
+      "Total_$": {
+        "Total_$": 710730
+      }
+    },
+    {
+      "record_id": 48,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a26f472b683c7ba04",
+        "Candidate": "Cote, Elnora"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ac56c64e7ed2fe87d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 114,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1998,
+        "Election_Year": 2011
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9512,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4572
+      },
+      "Total_$": {
+        "Total_$": 1267374
+      }
+    },
+    {
+      "record_id": 49,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a8915d2ec78a3cab3",
+        "Candidate": "Lawson, Spencer"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9af3063522f08f6b82"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 106,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2001,
+        "Election_Year": 2012
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9540,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4351
+      },
+      "Total_$": {
+        "Total_$": 659480
+      }
+    },
+    {
+      "record_id": 50,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a1fd58a166a3f1762",
+        "Candidate": "Fuller, Patti"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a8cd29c0ad36812ea"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 127,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2011
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9000,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4921
+      },
+      "Total_$": {
+        "Total_$": 206420
+      }
+    },
+    {
+      "record_id": 51,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a0a6dd5208a662ff7",
+        "Candidate": "Miranda, Mcpherson"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9aba35947160854464"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 125,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1998,
+        "Election_Year": 2010
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9045,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4437
+      },
+      "Total_$": {
+        "Total_$": 565059
+      }
+    },
+    {
+      "record_id": 52,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ada1dba30dd8168df",
+        "Candidate": "Wiggins, Murray"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a50745d62fe3aeb5d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 144,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9878,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4992
+      },
+      "Total_$": {
+        "Total_$": 1267635
+      }
+    },
+    {
+      "record_id": 53,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ab8536a7e9368cec1",
+        "Candidate": "Richards, Vicki"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a82153c8fbfe9da74"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 139,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2001
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9912,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4486
+      },
+      "Total_$": {
+        "Total_$": 805556
+      }
+    },
+    {
+      "record_id": 54,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aab3575791358640f",
+        "Candidate": "Wilkins, Iris"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a5cc084e64f4d1fe6"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 127,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2014
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9888,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4447
+      },
+      "Total_$": {
+        "Total_$": 391810
+      }
+    },
+    {
+      "record_id": 55,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ae2c5ee74bf48f06c",
+        "Candidate": "Vang, Rosella"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a6354c0e27f5acd7c"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 103,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2007,
+        "Election_Year": 2006
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9060,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4196
+      },
+      "Total_$": {
+        "Total_$": 235561
+      }
+    },
+    {
+      "record_id": 56,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9af570439378a1356e",
+        "Candidate": "Charles, Burch"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ab971c0bb5e2d9068"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 115,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2001,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9533,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4274
+      },
+      "Total_$": {
+        "Total_$": 464310
+      }
+    },
+    {
+      "record_id": 57,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a692704beca0e1773",
+        "Candidate": "Henderson, Katie"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a7a3517d37e853ec4"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 106,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2015,
+        "Election_Year": 2010
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9456,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4727
+      },
+      "Total_$": {
+        "Total_$": 349524
+      }
+    },
+    {
+      "record_id": 58,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a5bbb23fcf231c04f",
+        "Candidate": "Wilder, Lacey"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a0f250f9bae95320e"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 128,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2015,
+        "Election_Year": 2011
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9017,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4958
+      },
+      "Total_$": {
+        "Total_$": 1444346
+      }
+    },
+    {
+      "record_id": 59,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a42fa9e43004f6ec0",
+        "Candidate": "Meadows, Barton"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a3434bba6787aff17"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 148,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9347,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4768
+      },
+      "Total_$": {
+        "Total_$": 526796
+      }
+    },
+    {
+      "record_id": 60,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a415f9c40c498b2a9",
+        "Candidate": "Hodge, Robyn"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a3880fafb35cae036"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 128,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2001,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9923,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4434
+      },
+      "Total_$": {
+        "Total_$": 264127
+      }
+    },
+    {
+      "record_id": 61,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a0bf2cf76bc12ae8e",
+        "Candidate": "Pierce, Maryann"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a9c97d178ca32f69d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 102,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2001,
+        "Election_Year": 1998
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9100,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4398
+      },
+      "Total_$": {
+        "Total_$": 415259
+      }
+    },
+    {
+      "record_id": 62,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a30a9f18139317ec6",
+        "Candidate": "Spence, Carey"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a7c5da0ff26589a38"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 112,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2006,
+        "Election_Year": 2014
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9007,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4692
+      },
+      "Total_$": {
+        "Total_$": 513382
+      }
+    },
+    {
+      "record_id": 63,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a2ae9ce200a847632",
+        "Candidate": "Logan, Susanna"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a4201af3413155ad7"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 117,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2007,
+        "Election_Year": 2012
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9538,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4934
+      },
+      "Total_$": {
+        "Total_$": 1096177
+      }
+    },
+    {
+      "record_id": 64,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a45fc25f017ad2184",
+        "Candidate": "Chaney, Aisha"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a79f4d78d2abfb93e"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 109,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9955,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4139
+      },
+      "Total_$": {
+        "Total_$": 336928
+      }
+    },
+    {
+      "record_id": 65,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a40c2dd0a210ed19a",
+        "Candidate": "Flowers, Fran"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ac1336ade45404869"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 127,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2009,
+        "Election_Year": 2013
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9788,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4643
+      },
+      "Total_$": {
+        "Total_$": 954655
+      }
+    },
+    {
+      "record_id": 66,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aa40e7b0de9e80eb0",
+        "Candidate": "Shannon, Dawn"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a6f2712db00e37b6a"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 141,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2008,
+        "Election_Year": 2004
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9713,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4844
+      },
+      "Total_$": {
+        "Total_$": 1303654
+      }
+    },
+    {
+      "record_id": 67,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad0eee06e150a14e6",
+        "Candidate": "Zimmerman, Winters"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a026e613b72b4cefe"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 106,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2006,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9861,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4070
+      },
+      "Total_$": {
+        "Total_$": 1404057
+      }
+    },
+    {
+      "record_id": 68,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad8957014e44504ee",
+        "Candidate": "Hendrix, Selena"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a37123098d53dee2f"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 132,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2000,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9183,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4894
+      },
+      "Total_$": {
+        "Total_$": 1073726
+      }
+    },
+    {
+      "record_id": 69,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aa42111ad6ac42db7",
+        "Candidate": "Bonner, Herring"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9afdc0f945a81f952d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 123,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2007,
+        "Election_Year": 2015
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9099,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4077
+      },
+      "Total_$": {
+        "Total_$": 816191
+      }
+    },
+    {
+      "record_id": 70,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a10077c96001100eb",
+        "Candidate": "Huber, Anne"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9afa3b184e271d857a"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 119,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2009,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9474,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4093
+      },
+      "Total_$": {
+        "Total_$": 791416
+      }
+    },
+    {
+      "record_id": 71,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a3baceb1910314e17",
+        "Candidate": "Cooke, Mamie"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ac3e9f93b11a354e6"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 133,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2007,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9399,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4282
+      },
+      "Total_$": {
+        "Total_$": 200784
+      }
+    },
+    {
+      "record_id": 72,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad0fd05b258f92e64",
+        "Candidate": "Pope, Sheena"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a10fb3687ff3b1197"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 139,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2007
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9053,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4066
+      },
+      "Total_$": {
+        "Total_$": 654168
+      }
+    },
+    {
+      "record_id": 73,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad6c8ae454f4bd9ad",
+        "Candidate": "Mueller, Francine"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a5f90d8d6ef947fc1"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 119,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 2004
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9924,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4360
+      },
+      "Total_$": {
+        "Total_$": 862234
+      }
+    },
+    {
+      "record_id": 74,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a5f0718ae762355ee",
+        "Candidate": "Copeland, Gracie"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a6b7f7a30d7ad75e3"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 143,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2005
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9918,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4866
+      },
+      "Total_$": {
+        "Total_$": 817879
+      }
+    },
+    {
+      "record_id": 75,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a16308262a27f980d",
+        "Candidate": "Odonnell, Garrison"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ab004627fdb8cc1fa"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 137,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2003,
+        "Election_Year": 1998
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9024,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4933
+      },
+      "Total_$": {
+        "Total_$": 358892
+      }
+    },
+    {
+      "record_id": 76,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a443def0a1626c628",
+        "Candidate": "Jefferson, Pam"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a04b0b2ca307b40b5"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 131,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1999,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9499,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4497
+      },
+      "Total_$": {
+        "Total_$": 949035
+      }
+    },
+    {
+      "record_id": 77,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ab83efc3ac273c282",
+        "Candidate": "Rosales, Jillian"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a399da55191a2cf85"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 138,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1999,
+        "Election_Year": 2009
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9349,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4925
+      },
+      "Total_$": {
+        "Total_$": 522343
+      }
+    },
+    {
+      "record_id": 78,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a5d7185d63c0ae1d7",
+        "Candidate": "Berger, Stafford"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ad0bd12937e946ee0"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 133,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2006,
+        "Election_Year": 2011
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9575,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4187
+      },
+      "Total_$": {
+        "Total_$": 1348713
+      }
+    },
+    {
+      "record_id": 79,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a9c6b13e6e214abea",
+        "Candidate": "Mays, Reyes"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9aff320c8844d5ea94"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 118,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 2006
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9988,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4082
+      },
+      "Total_$": {
+        "Total_$": 1485273
+      }
+    },
+    {
+      "record_id": 80,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9affa8b6122d15bf32",
+        "Candidate": "Salazar, Craig"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a392099a6c6bed941"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 131,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 1998,
+        "Election_Year": 2007
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9552,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4354
+      },
+      "Total_$": {
+        "Total_$": 725998
+      }
+    },
+    {
+      "record_id": 81,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9adafc3cae51f7939a",
+        "Candidate": "Vance, Charlotte"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9afc63484f85570e10"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 112,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2003
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9247,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4176
+      },
+      "Total_$": {
+        "Total_$": 98361
+      }
+    },
+    {
+      "record_id": 82,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a2425b5167b2a3db2",
+        "Candidate": "Moon, Althea"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9af3605e71bbea4c69"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 131,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2010
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9021,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4065
+      },
+      "Total_$": {
+        "Total_$": 1201774
+      }
+    },
+    {
+      "record_id": 83,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ac1a8c0b56c90bda2",
+        "Candidate": "Sparks, Dolores"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9acd150f522b84dae1"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 135,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2015,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9052,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4279
+      },
+      "Total_$": {
+        "Total_$": 1130268
+      }
+    },
+    {
+      "record_id": 84,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9abd64984214fc4601",
+        "Candidate": "Case, Janette"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9af365d6fd9111d610"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 143,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2010
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9845,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4706
+      },
+      "Total_$": {
+        "Total_$": 1187266
+      }
+    },
+    {
+      "record_id": 85,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a45e05d5f9868bd3a",
+        "Candidate": "Garcia, Fields"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a2f60b57bbd2c1c3c"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 119,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2016,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9705,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4250
+      },
+      "Total_$": {
+        "Total_$": 245258
+      }
+    },
+    {
+      "record_id": 86,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a2c64c14a8339a556",
+        "Candidate": "Jordan, Jeannette"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a717cb667f2219d0d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 132,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2007
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9876,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4536
+      },
+      "Total_$": {
+        "Total_$": 754268
+      }
+    },
+    {
+      "record_id": 87,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a3febd5095fa7b9f4",
+        "Candidate": "Saunders, Sheri"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a818e3b7a9d19bd01"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 144,
+        "Specific_Party": "Republican"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 2013
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9420,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4789
+      },
+      "Total_$": {
+        "Total_$": 1450690
+      }
+    },
+    {
+      "record_id": 88,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a5703634472b6873b",
+        "Candidate": "Rivera, Lamb"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a2a1b4453760fca02"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 125,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2005,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9621,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4475
+      },
+      "Total_$": {
+        "Total_$": 1069709
+      }
+    },
+    {
+      "record_id": 89,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a219e8e0758da54f7",
+        "Candidate": "Little, Randi"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a83b2cd810f0d29d3"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 150,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2002,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9056,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4406
+      },
+      "Total_$": {
+        "Total_$": 1140698
+      }
+    },
+    {
+      "record_id": 90,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9aa18ccfe70278fdff",
+        "Candidate": "Burton, Wells"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9abf8e22b81b701d90"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 108,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2010,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9578,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4426
+      },
+      "Total_$": {
+        "Total_$": 481139
+      }
+    },
+    {
+      "record_id": 91,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ad6c00991c4531b66",
+        "Candidate": "Tillman, Christy"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9abde29db2e24680f7"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 147,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9836,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4045
+      },
+      "Total_$": {
+        "Total_$": 164433
+      }
+    },
+    {
+      "record_id": 92,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a00b4395ebabfe6b8",
+        "Candidate": "Stevens, Linda"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9ad3dd7a7a65f6cd94"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 111,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2015,
+        "Election_Year": 2001
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9799,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4602
+      },
+      "Total_$": {
+        "Total_$": 1260994
+      }
+    },
+    {
+      "record_id": 93,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9abb16b5a7ecce6586",
+        "Candidate": "Hickman, Marisa"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a8db9a9877da9d32b"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 116,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2014,
+        "Election_Year": 1999
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9803,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4926
+      },
+      "Total_$": {
+        "Total_$": 855531
+      }
+    },
+    {
+      "record_id": 94,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a9a763af278887d95",
+        "Candidate": "Patel, Camacho"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a368d41ea94237f2c"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 110,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "3rd-Party"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2011,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9272,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4474
+      },
+      "Total_$": {
+        "Total_$": 1373892
+      }
+    },
+    {
+      "record_id": 95,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a4631bf836f5ae64b",
+        "Candidate": "Davidson, Burnett"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a4a39257de3e2b05b"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 145,
+        "Specific_Party": "Working Families"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2001,
+        "Election_Year": 2008
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9710,
+        "Office_Sought": "Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4282
+      },
+      "Total_$": {
+        "Total_$": 1323826
+      }
+    },
+    {
+      "record_id": 96,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9acdb82bb5344a8ba2",
+        "Candidate": "Hyde, Blair"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a3b50d3b3e5d4d90b"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 146,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 1,
+        "General_Party": "Republican"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2004,
+        "Election_Year": 2014
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9987,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4549
+      },
+      "Total_$": {
+        "Total_$": 42315
+      }
+    },
+    {
+      "record_id": 97,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9ae0fd08664228c132",
+        "Candidate": "Gilbert, Villarreal"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a74e81ac212ff1769"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 141,
+        "Specific_Party": "Independent"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2013,
+        "Election_Year": 2002
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 2,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9145,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Open"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4996
+      },
+      "Total_$": {
+        "Total_$": 446707
+      }
+    },
+    {
+      "record_id": 98,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a933b90e4a6fbd2d4",
+        "Candidate": "Knight, Janis"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9aa141e1f1dd6c7a1f"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 123,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 3,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2012,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "General"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9973,
+        "Office_Sought": "State Senator"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4070
+      },
+      "Total_$": {
+        "Total_$": 421106
+      }
+    },
+    {
+      "record_id": 99,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a866e86a6ed77ec3d",
+        "Candidate": "Montgomery, Lorie"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a583d1694994ff9e2"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 107,
+        "Specific_Party": "Democrat"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2009,
+        "Election_Year": 2003
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 1,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9579,
+        "Office_Sought": "State Representative"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Lost General"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Challenger"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 5000
+      },
+      "Total_$": {
+        "Total_$": 1047797
+      }
+    },
+    {
+      "record_id": 100,
+      "request": "s=AL&f-core=1&c-exi=1&c-t-id=79321",
+      "Candidate": {
+        "token": "c-t-id",
+        "id": "57571f9a1b58162bdacf45e2",
+        "Candidate": "Acosta, Chavez"
+      },
+      "Candidate_Entity": {
+        "token": "c-t-eid",
+        "id": "57571f9a3f6f0978fb75b45d"
+      },
+      "Specific_Party": {
+        "token": "c-t-pt",
+        "id": 139,
+        "Specific_Party": "Libertarian"
+      },
+      "General_Party": {
+        "token": "c-t-p",
+        "id": 2,
+        "General_Party": "Democrat"
+      },
+      "Election_Jurisdiction": {
+        "token": "c-t-p",
+        "id": "AL",
+        "Election_Jurisdiction": "AL"
+      },
+      "Election_Year": {
+        "token": "c-r-t",
+        "id": 2006,
+        "Election_Year": 2016
+      },
+      "Election_Type": {
+        "token": "c-r-t",
+        "id": 3,
+        "Election_Type": "Special"
+      },
+      "Office_Sought": {
+        "token": "c-r-osid",
+        "id": 9307,
+        "Office_Sought": "Lieutenant Governor"
+      },
+      "Election_Status": {
+        "token": "c-t-ftsts",
+        "Election_Status": "Won Primary"
+      },
+      "Incumbency_Status": {
+        "token": "c-t-ico",
+        "Incumbency_Status": "Incumbenant"
+      },
+      "Number_Of_Records": {
+        "Num_Of_Records": 4484
+      },
+      "Total_$": {
+        "Total_$": 1349144
+      }
+    }
+  ]
+}
