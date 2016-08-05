@@ -581,10 +581,7 @@ def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,upda
   '''
   Week=datetime.date.today().isocalendar()[1]
   #print daily_api_calls
-  host='localhost'
-  user='tahahn'
-  passwd='travis2dkk'
-  db='atlas_ftm'
+ 
   #Set this to 50 After Testing Finishes
   #print 'test'
   for y in range (start,50):
@@ -631,7 +628,7 @@ def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,upda
           daily_api_calls+=1
           #print 'test'
         if(type2=='Candidate' and not update1):
-          #data_extract('Candidate',x,NumToState(y))
+          data_extract('Candidate',x,NumToState(y))
           daily_api_calls+=1
           transform_Candidate(AddrC)
         if(type2=='Lawmaker' and update1):
@@ -925,10 +922,13 @@ def maxpageUpdate(maxpage_Cand,Page,State):
 
 
 if __name__ == "__main__":
-  host='localhost'
-  user='tahahn'
-  passwd='travis2dkk'
-  db='atlas_ftm'
+  with open ('db.txt') as f:
+    content=f.readlines()
+  host=content[0][content[0].find("=")+1:].strip()
+  user=content[1][content[1].find("=")+1:].strip()
+  passwd=content[2][content[2].find("=")+1:].strip()
+  db=content[3][content[3].find("=")+1:].strip()
+
   maxpage=dict()#Dictionary of MaxPages and States for Lawmakers
   maxpage_Cand=dict()#Dictionary of MaxPages and States for Candidates
   #get_maxPage(200,maxpage,maxpage_Cand)
