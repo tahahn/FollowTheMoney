@@ -6,9 +6,9 @@ FTM is a ETL(Extract,Transform and Load) program written in python. It extracts 
 
 ###Prerequisites
 
--Python 2.7
--mySQL
--15mb of disk-space
+- Python 2.7
+- mySQL
+- 15mb of disk-space
 
 For FTM to run the following Python Modules are required.
 
