@@ -1,4 +1,4 @@
-host=localhost
-user=tahahn
-passwd=travis2dkk
+host=xxxxxxxxx
+user=xxxxxxxx
+passwd=xxxxxxxx
 db=atlas_ftm
