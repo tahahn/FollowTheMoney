@@ -134,8 +134,10 @@ For FTM to run the following Python Modules are required.
 ###Usage
 
 To run the program type 
+```
+    python FollowTheMoneyETL.py
+```
 
-'python FollowTheMoneyETL.py' in the windows command Line. 
 
 Note: This program has been exclusivley tested on Windows 7 using the windows command line. There is no guarantee that it will function if run from the linux or OS X terminal. 
 
