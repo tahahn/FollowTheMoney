@@ -6,7 +6,9 @@ FTM is a ETL(Extract,Transform and Load) program written in python. It extracts 
 
 ###Prerequisites
 
-Python 2.7
+-Python 2.7
+-mySQL
+-15mb of disk-space
 
 For FTM to run the following Python Modules are required.
 
@@ -21,7 +23,6 @@ For FTM to run the following Python Modules are required.
 
 *pydocs is not required for the program to run but is reccomended to read the documentation provided. 
 
-Additionally the ETL houses the extracted data in a series of JSON files before uploading data to a databse. As a result 15mb of disk-space is required for storage of the JSON file and a mySQL databse is required. 
 
 
 
