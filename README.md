@@ -1,6 +1,6 @@
 #FTM 
 
-FTM is a ETL(Extract,Transform and Load) program written in python. It extracts campaign contribution data for state senators and legislators from the Follow The Money API and houses the data in a datawarehouse.
+FTM is an ETL(Extract,Transform and Load) program written in python. It extracts campaign contribution data for state senators and legislators from the Follow The Money API and stores the data in a datawarehouse.
 
 ##Getting Started
 
@@ -10,7 +10,7 @@ FTM is a ETL(Extract,Transform and Load) program written in python. It extracts 
 - mySQL
 - 15mb of disk-space
 
-For FTM to run the following Python Modules are required.
+For FTM to run the following python modules are required.
 
 - MySQLdb
 - json
@@ -31,8 +31,8 @@ For FTM to run the following Python Modules are required.
 
 #### Setup
 
-1. Sign up for a free account at http://www.followthemoney.org/ and edit api.txt with your api-key.
-2. If hosting the database locally start the mySQL Server
+1. Sign up for a free account at http://www.followthemoney.org/ and edit the file api.txt with your api-key.
+2. If you have decided to locally host the mySQL database start the mySQL Server
 2. Edit the database.txt file with your host address, username,password.The database should be left as atlas_ftm
 3. Create the atlas_ftm database in your mySQL Installation
 4. Create the following tables 
@@ -138,6 +138,7 @@ To run the program type
     python FollowTheMoneyETL.py
 ```
 
+Then when prompoted "Lawmaker or Candidate" choose "Candidate"
 
 Note: This program has been exclusivley tested on Windows 7 using the windows command line. There is no guarantee that it will function if run from the linux or OS X terminal. 
 
