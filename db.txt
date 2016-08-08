@@ -1,0 +1,4 @@
+host=localhost
+user=tahahn
+passwd=travis2dkk
+db=atlas_ftm
