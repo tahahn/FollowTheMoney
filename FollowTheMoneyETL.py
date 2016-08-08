@@ -21,7 +21,10 @@ def data_extract(Entity,page,state):
     page: (int) the page number to be extracted
     state:(String) the state currently being inserted/updated
   '''
-  api_key='eca19fed32fef9c993981829b74deb3b'
+
+  with open('api.txt') as f:
+    content=f.readlines()
+  api_key=content[0]
   p_number=str(page)
   api_dict = {
   'Lawmaker':'meh',
@@ -527,7 +530,14 @@ def transform_Candidate(Addr):
       Cand_Lname=""
       print Cand_Fname
       
-    
+    if "'" in Cand_Fname:
+      Cand_Frname=Cand_Frname.replace("'"," ")
+      Cand_Fname=Cand_Fname.replace("'"," ")
+      Cand_Lname=Cand_Lname.replace("'"," ")
+    if '"' in Cand_Fname or '"' in Cand_Lname:
+      Cand_Frname=Cand_Frname.replace('"',' ')
+      Cand_Fname=Cand_Fname.replace('"',' ')
+      Cand_Lname=Cand_Lname.replace('"',' ')
     
     #Cand_Lname=Name.split(',')[0].upper()
     #Cand_Frname=Name.split(',')[1].strip().upper()
@@ -637,7 +647,7 @@ def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,upda
           Update('Lawmaker',Addr,host,user,passwd,db)
           daily_api_calls+=1
         if(update1 is True and type2=='Candidate'):
-          #data_extract('Candidate',x,NumToState(y))
+          data_extract('Candidate',x,NumToState(y))
           Update('Candidate',AddrC,host,user,passwd,db) 
           daily_api_calls+=1
         
@@ -682,7 +692,7 @@ def normalizeOffice(office):
   '''
   if 'US HOUSE' in office:
     return 'House of Representatives'
-  elif 'HOUSE' in office and 'US' not in office:
+  elif 'HOUSE DISTRICT' in office:
     return "State House/Assembly"
   elif 'ASSEMBLY DISTRICT' in office:
     return 'State House/Assembly'

@@ -53,9 +53,9 @@ I0
 sS'PA'
 p18
 I5
-sS'CA'
+sS'AK'
 p19
-I5
+I1
 sS'NV'
 p20
 I2
@@ -65,9 +65,9 @@ I2
 sS'CO'
 p22
 I2
-sS'AK'
+sS'CA'
 p23
-I1
+I5
 sS'AL'
 p24
 I0
@@ -89,9 +89,9 @@ I2
 sS'IA'
 p30
 I2
-sS'OK'
+sS'MA'
 p31
-I4
+I0
 sS'AZ'
 p32
 I2
@@ -107,9 +107,9 @@ I4
 sS'MD'
 p36
 I1
-sS'MA'
+sS'OK'
 p37
-I0
+I4
 sS'OH'
 p38
 I3
