@@ -8,16 +8,10 @@ FTM is a ETL(Extract,Transform and Load) program written in python. It extracts 
 
 For FTM to run the following modules must exist in your Python installation. 
 
-*Is this a list
-*test
--MySQLdb
--json
--datetime
--time
--re
--urllib
--pickle
--pydocs*
+List:
+
+* foo
+* bar
 
 *pydocs is not required for the program to run but is reccomended to read the documentation provided. 
 
