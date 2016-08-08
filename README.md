@@ -21,6 +21,13 @@ For FTM to run the following Python Modules are required.
 - pickle
 - pydoc*
 
+###Installation
+
+####Windows 7
+
+####OS X 
+
+####Linux
 
 
 
