@@ -190,6 +190,7 @@ def Update(Type,addr,host,user,passwd,db):
   Time = time.time()
   with open(addr) as f:
     data=json.load(f)
+    print data
     for item in data['records']:
       conn = MySQLdb.connect(host,user,passwd,db)
       cursor = conn.cursor()
@@ -199,6 +200,9 @@ def Update(Type,addr,host,user,passwd,db):
         Name=item['Candidate']['Candidate'].split(',')
         if len(Name)>1:
           Cand_Frname=Name[1].strip().upper()
+          Mname='n/a'
+          if " " in Cand_Frname:
+            Mname=Cand_Frname.split(" ")[1]
           Cand_Lname=Name[0].upper()
           Cand_Fname=(Name[0]+","+Name[1]).upper()
         else:
@@ -400,14 +404,6 @@ def database2(host,user,passwd,db,type1):
       print SQL6
       cursor.execute(SQL7)
       print SQL7
-      
-  
-     
-    
-    
- 
-
-      
       conn.commit()
       conn.close()
       
@@ -471,12 +467,12 @@ def database(Entity,State,District,Cycle,Type,Election_Status,Incumbency_Status,
 
     '''
   
-  #host='atlasproject-stage.cslkfacnmbbr.us-east-1.rds.amazonaws.com'
-  host='localhost'
-  #user='travis'
-  #passwd='atlastravis'
-  user='tahahn'
-  passwd='travis2dkk'
+  with open ('db.txt') as f:
+    content=f.readlines()
+  host=content[0][content[0].find("=")+1:].strip()
+  user=content[1][content[1].find("=")+1:].strip()
+  passwd=content[2][content[2].find("=")+1:].strip()
+  db=content[3][content[3].find("=")+1:].strip()
   db='atlas_ftm'
   conn = MySQLdb.connect(host,user,passwd,db)
   cursor = conn.cursor()
@@ -516,11 +512,15 @@ def transform_Candidate(Addr):
   with open(Addr) as f:
     data= json.load(f)
   Time = time.time()
+  
   for item in data['records']:
     #Extracts data relevant to Candidates
     Name=item['Candidate']['Candidate'].split(',')
     if len(Name)>1:
       Cand_Frname=Name[1].strip().upper()
+      Mname='n/a'
+      if " " in Cand_Frname:
+        Mname=Cand_Frname.split(" ")[1]
       Cand_Lname=Name[0].upper()
       Cand_Fname=(Name[0]+","+Name[1]).upper()
       print Cand_Fname
@@ -528,7 +528,7 @@ def transform_Candidate(Addr):
       Cand_Fname=Name[0]
       Cand_Frname=""
       Cand_Lname=""
-      print Cand_Fname
+      #print Cand_Fname
       
     if "'" in Cand_Fname:
       Cand_Frname=Cand_Frname.replace("'"," ")
@@ -570,7 +570,7 @@ def transform_Candidate(Addr):
     Election_Status = item['Election_Status']['Election_Status']
     Incumbency_Status=item['Incumbency_Status']['Incumbency_Status']
     contribution = item['Total_$']['Total_$']
-    database('Candidate',State,District,Year,Election_Type,Election_Status,Incumbency_Status,Cand_Fname,Cand_Frname,'n/a',Cand_Lname,Office,contribution,General_Party,Specific_Party,datetime.datetime.fromtimestamp(Time).strftime('%Y-%m-%d'))
+    database('Candidate',State,District,Year,Election_Type,Election_Status,Incumbency_Status,Cand_Fname,Cand_Frname,Mname,Cand_Lname,Office,contribution,General_Party,Specific_Party,datetime.datetime.fromtimestamp(Time).strftime('%Y-%m-%d'))
    
 
 def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,update1,skip):
@@ -606,7 +606,7 @@ def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,upda
     conn.close()
     results= cursor.fetchall()
     daily_api_calls=int(daily_api_calls)
-    for x in range(startPage,pages[NumToState(y)]+1):
+    for x in range(startPage,pages[NumToState(y)]):
       if daily_api_calls<=api_call_limit and x!=skip:
         print x
         print daily_api_calls
@@ -755,10 +755,12 @@ def Office_Code(o):
     Code='BOE'
   if o=='Supreme Court':
     Code='SSC'
-  host='localhost'
-  user='tahahn'
-  passwd='travis2dkk'
-  db='atlas_ftm'
+  with open ('db.txt') as f:
+    content=f.readlines()
+  host=content[0][content[0].find("=")+1:].strip()
+  user=content[1][content[1].find("=")+1:].strip()
+  passwd=content[2][content[2].find("=")+1:].strip()
+  db=content[3][content[3].find("=")+1:].strip()
   conn = MySQLdb.connect(host,user,passwd,db)
   cursor = conn.cursor()
   OFF="""UPDATE ftm_dim_office SET Office_Code='%s' WHERE Office='%s'"""

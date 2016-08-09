@@ -1,4 +1,4 @@
-host=xxxxxxxxx
-user=xxxxxxxx
-passwd=xxxxxxxx
+host=atlasproject-stage.cslkfacnmbbr.us-east-1.rds.amazonaws.com
+user=travis
+passwd=atlastravis
 db=atlas_ftm
