@@ -194,14 +194,15 @@ def Update(Type,addr,host,user,passwd,db):
       conn = MySQLdb.connect(host,user,passwd,db)
       cursor = conn.cursor()
       if Type=='Candidate':
-        Cand_Mname="n/a"
         #Create Variables for Candidate Specific Elements
         Name=item['Candidate']['Candidate'].split(',')
         if len(Name)>1:
           Cand_Frname=Name[1].strip().upper()
           Mname='n/a'
           if " " in Cand_Frname:
-            Mname=Cand_Frname.split(" ")[1]
+            Namez=Cand_Frname.split(" ")
+            Cand_Frname= Namez[0]
+            Mname=Namez[1]
           Cand_Lname=Name[0].upper()
           Cand_Fname=(Name[0]+","+Name[1]).upper()
         else:
@@ -273,7 +274,7 @@ def Update(Type,addr,host,user,passwd,db):
         cursor = conn.cursor()
         Incubator="""INSERT INTO ftm_inc(State,Cycle,Cycle_Type,Election_Status,Incumbency_Status,Full_Name,First_Name,Middle_Name,Last_Name,contribution,Office,General_Party,timestamp) VALUES('%s',%s,'%s','%s','%s','%s','%s','%s','%s',%s,'%s','%s','%s')"""
         #print Incubator%(State,year,Election_Type,Election_Status,Incumbency_Status,Cand_Fname,Cand_Frname,Cand_Mname,Cand_Lname,money,office,party,datetime.datetime.fromtimestamp(Time).strftime('%Y-%m-%d'))
-        cursor.execute(Incubator%(State,year,Election_Type,Election_Status,Incumbency_Status,Cand_Fname,Cand_Frname,Cand_Mname,Cand_Lname,money,office,party,datetime.datetime.fromtimestamp(Time).strftime('%Y-%m-%d')))
+        cursor.execute(Incubator%(State,year,Election_Type,Election_Status,Incumbency_Status,Cand_Fname,Cand_Frname,Mname,Cand_Lname,money,office,party,datetime.datetime.fromtimestamp(Time).strftime('%Y-%m-%d')))
         print Cand_Fname+"inserted"
         #If the Candidate or Lawmaker is not already in the Incubator Table they are then inserted
         #This can be done more efficiently with a unique index and/or an upsert SQL Function(Return to this if time allows)
@@ -519,7 +520,9 @@ def transform_Candidate(Addr):
       Cand_Frname=Name[1].strip().upper()
       Mname='n/a'
       if " " in Cand_Frname:
-        Mname=Cand_Frname.split(" ")[1]
+        Namez=Cand_Frname.split(" ")
+        Cand_Frname= Namez[0]
+        Mname=Namez[1]
       Cand_Lname=Name[0].upper()
       Cand_Fname=(Name[0]+","+Name[1]).upper()
       print Cand_Fname
