@@ -190,7 +190,6 @@ def Update(Type,addr,host,user,passwd,db):
   Time = time.time()
   with open(addr) as f:
     data=json.load(f)
-    print data
     for item in data['records']:
       conn = MySQLdb.connect(host,user,passwd,db)
       cursor = conn.cursor()
@@ -606,6 +605,8 @@ def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,upda
     conn.close()
     results= cursor.fetchall()
     daily_api_calls=int(daily_api_calls)
+    if pages[NumToState(y)]==0:
+      pages[NumToState(y)]=1
     for x in range(startPage,pages[NumToState(y)]):
       if daily_api_calls<=api_call_limit and x!=skip:
         print x
@@ -647,7 +648,7 @@ def  state_cycle(daily_api_calls,api_call_limit,start,startPage,pages,type2,upda
           Update('Lawmaker',Addr,host,user,passwd,db)
           daily_api_calls+=1
         if(update1 is True and type2=='Candidate'):
-          data_extract('Candidate',x,NumToState(y))
+          #data_extract('Candidate',x,NumToState(y))
           Update('Candidate',AddrC,host,user,passwd,db) 
           daily_api_calls+=1
         
