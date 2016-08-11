@@ -1,4 +1,4 @@
-host=atlasproject-stage.cslkfacnmbbr.us-east-1.rds.amazonaws.com
-user=travis
-passwd=atlastravis
+host=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+user=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+passwd=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 db=atlas_ftm
